@@ -28,14 +28,14 @@ import {
       </DialogTrigger>
       <DialogContent class="sm:max-w-[825px]">
         <DialogHeader>
-          <DialogTitle>GAME PARAMETERS</DialogTitle>
+          <DialogTitle class="text-primary">GAME PARAMETERS</DialogTitle>
           <DialogDescription>
             Make changes to your profile here. Click save when you're done.
           </DialogDescription>
         </DialogHeader>
         <div class="font-creepster grid justify-center gap-6 py-4 text-3xl">
           <div class="flex justify-between gap-10">
-            <div class="flex flex-col items-start gap-1.5">
+            <div class="flex flex-col items-start gap-1.5 text-primary">
               <p>IMPOSTERS</p>
               <Input type="text" placeholder="Amount of Imposters..." />
             </div>
