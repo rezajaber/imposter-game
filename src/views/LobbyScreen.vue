@@ -1,5 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import GameHeadings from "@/components/GameHeadings.vue";
+import GameButtons from "@/components/GameButtons.vue";
+import { Input } from "postcss";
+</script>
 
 <template>
-  <div></div>
+  <div class="flex flex-col items-center gap-6">
+    <GameHeadings
+      mainTitle="SETUP YOUR"
+      mainTitleSuffix="GAME!"
+      subtitle="HOW DO YOU LIKE TO PLAY IT..."
+    />
+
+    <GameButtons buttonText="CONFIGURE" />
+  </div>
 </template>

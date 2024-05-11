@@ -22,12 +22,12 @@ const router = createRouter({
     {
       path: "/role",
       name: "role",
-      component: GameScreen,
+      component: RoleScreen,
     },
     {
       path: "/game",
       name: "game",
-      component: RoleScreen,
+      component: GameScreen,
     },
     {
       path: "/result",
