@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import GameHeadings from "@/components/GameHeadings.vue";
 import GameButtons from "@/components/GameButtons.vue";
-import { Input } from "postcss";
 </script>
 
 <template>
