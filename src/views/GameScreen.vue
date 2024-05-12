@@ -14,7 +14,7 @@ const players = ref([
   { id: 8, name: "Reza Jaber" },
 ]);
 
-const getBloodDrip = (id) => {
+const getBloodDrip = (id: number) => {
   return id === 4 ? "../../src/assets/img/blood-drip.png" : null;
 };
 </script>
