@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import LandingScreen from "@/views/LandingScreen.vue";
 import LobbyScreen from "@/views/LobbyScreen.vue";
-import GameScreen from "@/views/GameScreen.vue";
 import RoleScreen from "@/views/RoleScreen.vue";
+import GameScreen from "@/views/GameScreen.vue";
+import VotingScreen from "@/views/VotingScreen.vue";
 import ResultScreen from "@/views/ResultScreen.vue";
 
 const router = createRouter({
@@ -28,6 +29,11 @@ const router = createRouter({
       path: "/game",
       name: "game",
       component: GameScreen,
+    },
+    {
+      path: "/vote",
+      name: "vote",
+      component: VotingScreen,
     },
     {
       path: "/result",
