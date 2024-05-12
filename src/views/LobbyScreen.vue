@@ -25,7 +25,7 @@ import {
     />
 
     <Dialog>
-      <div class="flex gap-6">
+      <div class="flex flex-col items-center gap-4 sm:flex-row">
         <GameButtons buttonText="COPY LINK" />
         <DialogTrigger as-child>
           <GameButtons buttonText="CONFIGURE" />
