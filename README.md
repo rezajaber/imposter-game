@@ -1,5 +1,9 @@
 # Who is the Impstor? - The Game of Deception and Deduction 🕵️‍♂️🎭
 
+<p align="center">
+<img src=".github/whoistheimposter.png" alt="Landing Screen of the Game" style="border-radius: 100px; ">
+</p>
+
 Welcome to the exciting world of "Who is the Imposter?" the ultimate game where cunning meets chaos! Navigate through deception, uncover imposters, and have a blast with your friends. Here's everything you need to know to get started with this thrilling party game.
 
 ## Website 🌐
