@@ -3,7 +3,7 @@
 Welcome to the exciting world of "Who is the Imposter?" the ultimate game where cunning meets chaos! Navigate through deception, uncover imposters, and have a blast with your friends. Here's everything you need to know to get started with this thrilling party game.
 
 ## Website 🌐
-Begin your adventure at [Who is the Imposter?](https://www.whoistheimposter.game).
+Begin your adventure at [Who is the Imposter?](https://www.whoistheimposter.game). (In Progress...)
 
 ## Game Modes 🎲
 Choose how you want to play:
