@@ -2,6 +2,8 @@
 import GameHeadings from "@/components/GameHeadings.vue";
 import GameButtons from "@/components/GameButtons.vue";
 
+import { X } from "lucide-vue-next";
+import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
   Dialog,
@@ -57,6 +59,13 @@ import {
           <div class="flex flex-col items-start gap-1.5">
             <p>CATEGORIES</p>
             <Input type="text" placeholder="What Categories" />
+
+            <div class="mt-1 flex flex-wrap gap-2.5">
+              <Badge><X class="mr-1 h-4 w-4" />Badge</Badge>
+              <Badge><X class="mr-1 h-4 w-4" />Badge</Badge>
+              <Badge><X class="mr-1 h-4 w-4" />Badge</Badge>
+              <Badge><X class="mr-1 h-4 w-4" />Badge</Badge>
+            </div>
           </div>
         </div>
 
