@@ -23,16 +23,21 @@ import {
     />
 
     <Dialog>
-      <DialogTrigger as-child>
-        <GameButtons buttonText="CONFIGURE" />
-      </DialogTrigger>
+      <div class="flex gap-6">
+        <GameButtons buttonText="COPY LINK" />
+        <DialogTrigger as-child>
+          <GameButtons buttonText="CONFIGURE" />
+        </DialogTrigger>
+      </div>
+
       <DialogContent class="sm:max-w-[825px]">
-        <DialogHeader class="mb-4">
+        <DialogHeader class="mb-2">
           <DialogTitle class="text-primary">GAME PARAMETERS</DialogTitle>
           <DialogDescription>
             Make changes to your profile here. Click save when you're done.
           </DialogDescription>
         </DialogHeader>
+
         <div class="font-creepster grid justify-center gap-6 py-4 text-3xl">
           <div class="flex justify-between gap-10">
             <div class="flex flex-col items-start gap-1.5 text-primary">
@@ -55,8 +60,8 @@ import {
           </div>
         </div>
 
-        <DialogFooter class="mt-4">
-          <GameButtons buttonText="START" />
+        <DialogFooter class="mt-2">
+          <RouterLink to="/role"><GameButtons buttonText="START" /></RouterLink>
         </DialogFooter>
       </DialogContent>
     </Dialog>
