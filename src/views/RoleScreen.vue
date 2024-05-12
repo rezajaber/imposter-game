@@ -3,19 +3,18 @@ import DynamicHeadings from "@/components/DynamicHeadings.vue";
 </script>
 
 <template>
+  <!-- 
   <div class="flex flex-col items-center gap-4">
-    <!-- 
     <DynamicHeadings mainTitle="YOU ARE AN..." role="IMPOSTER" />
-    <img
-      src="../../src/assets/img/imposter.png"
-      class="w-96"
-      alt=""
-    />
-    
-    <p class="suffix-shadow-imposter font-creepster text-3xl tracking-wider text-white">
+    <img src="../../src/assets/img/imposter.png" class="w-96" alt="" />
+
+    <p
+      class="suffix-shadow-imposter font-creepster text-center text-3xl tracking-wider text-white"
+    >
       WIN BY FOOLING THE OTHERS
     </p>
-  --></div>
+  </div>
+  -->
 
   <div class="flex flex-col items-center gap-12">
     <DynamicHeadings
@@ -24,12 +23,13 @@ import DynamicHeadings from "@/components/DynamicHeadings.vue";
       role="GENSHIN IMPACT"
     />
     <img
+      draggable="false"
       src="../../src/assets/img/genshin-impact.webp"
       class="w-[40rem] rounded-3xl"
       alt=""
     />
     <p
-      class="suffix-shadow-agent font-creepster text-3xl tracking-wider text-white"
+      class="suffix-shadow-agent font-creepster text-center text-3xl tracking-wider text-white"
     >
       WIN BY VOTING OUT THE IMPOSTERS
     </p>
