@@ -18,7 +18,7 @@ const props = defineProps({
 <template>
   <div class="grid gap-1 text-center">
     <h1
-      class="title-shadow font-creepster text-5xl tracking-wider text-white sm:text-8xl"
+      class="title-shadow font-creepster text-5xl tracking-wider text-white sm:text-7xl"
     >
       {{ props.mainTitle }}
       <span class="suffix-shadow text-7xl text-primary sm:text-8xl">{{
