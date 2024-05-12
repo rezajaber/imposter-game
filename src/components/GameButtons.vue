@@ -4,13 +4,18 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  buttonBackground: {
+    type: String,
+    required: true,
+    default: "bg-primary",
+  },
 });
 </script>
 
 <template>
   <div class="">
     <Button
-      class="button-74 cursor duration-50 font-creepster rounded-full border-2 border-white bg-primary px-6 py-2 text-2xl text-white ease-in-out hover:opacity-85"
+      :class="`button-74 cursor duration-50 font-creepster ${buttonBackground} rounded-full border-2 border-white px-6 py-2 text-2xl text-white ease-in-out hover:opacity-85`"
     >
       {{ props.buttonText }}
     </Button>
