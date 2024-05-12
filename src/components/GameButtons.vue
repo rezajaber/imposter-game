@@ -20,7 +20,7 @@ const props = defineProps({
 <style scoped>
 /* CSS */
 .button-74 {
-  box-shadow: #ffffff 9px 8px 0 0;
+  box-shadow: #ffffff 6px 4px 0 0;
 }
 
 .button-74:active {
