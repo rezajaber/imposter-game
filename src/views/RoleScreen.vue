@@ -8,7 +8,7 @@ import DynamicHeadings from "@/components/DynamicHeadings.vue";
     <DynamicHeadings mainTitle="YOU ARE AN..." role="IMPOSTER" />
     <img
       src="../../src/assets/img/imposter.png"
-      class="w-96 animate-pulse"
+      class="w-96"
       alt=""
     />
     
