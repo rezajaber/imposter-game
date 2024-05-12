@@ -5,7 +5,7 @@ import GameButtons from "@/components/GameButtons.vue";
 
 <template>
   <div>
-    <div class="flex flex-col items-center gap-10">
+    <div class="flex flex-col items-center gap-6">
       <DynamicHeadings
         mainTitle="YOU GOT IT"
         role="SECRET AGENTS WIN"
