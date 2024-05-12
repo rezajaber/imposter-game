@@ -21,11 +21,11 @@ const props = defineProps({
 
 <template>
   <div class="text-center">
-    <h3 class="font-creepster text-5xl tracking-wider text-white">
+    <h3 class="font-creepster text-3xl tracking-wider text-white sm:text-5xl">
       {{ props.mainTitle }}
     </h3>
     <h1
-      :class="`role-shadow font-creepster ${suffixColor} text-8xl tracking-wider`"
+      :class="`role-shadow font-creepster ${suffixColor} text-7xl tracking-wider sm:text-8xl`"
     >
       {{ role }}
     </h1>
