@@ -1,16 +1,31 @@
 <script setup lang="ts">
 import DynamicHeadings from "@/components/DynamicHeadings.vue";
+import GameButtons from "@/components/GameButtons.vue";
 </script>
 
 <template>
   <div>
-    <div class="flex flex-col items-center gap-24">
-      <DynamicHeadings mainTitle="YOU FUCKED UP" role="IMPOSTER WINS" />
+    <div class="flex flex-col items-center gap-10">
       <DynamicHeadings
         mainTitle="YOU GOT IT"
         role="SECRET AGENTS WIN"
         suffixColor="text-green-500"
       />
+      <img
+        src="../../src/assets/img/agent.png"
+        class="w-96"
+        alt="Secret Agent"
+      />
+
+      <div class="flex flex-col items-center gap-4">
+        <RouterLink to="/lobby">
+          <GameButtons buttonText="NEW GAME" buttonBackground="bg-green-500" />
+        </RouterLink>
+
+        <RouterLink to="/">
+          <GameButtons buttonText="LEAVE" />
+        </RouterLink>
+      </div>
     </div>
   </div>
 </template>
