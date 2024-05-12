@@ -27,7 +27,7 @@ import {
         <GameButtons buttonText="CONFIGURE" />
       </DialogTrigger>
       <DialogContent class="sm:max-w-[825px]">
-        <DialogHeader>
+        <DialogHeader class="mb-4">
           <DialogTitle class="text-primary">GAME PARAMETERS</DialogTitle>
           <DialogDescription>
             Make changes to your profile here. Click save when you're done.
@@ -55,7 +55,7 @@ import {
           </div>
         </div>
 
-        <DialogFooter>
+        <DialogFooter class="mt-4">
           <GameButtons buttonText="START" />
         </DialogFooter>
       </DialogContent>
